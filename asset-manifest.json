@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/intro-signup/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/intro-signup/static/js/main.596921bb.chunk.js",
+    "main.js.map": "/intro-signup/static/js/main.596921bb.chunk.js.map",
+    "runtime-main.js": "/intro-signup/static/js/runtime-main.6eb7cd0f.js",
+    "runtime-main.js.map": "/intro-signup/static/js/runtime-main.6eb7cd0f.js.map",
+    "static/js/2.dc845e97.chunk.js": "/intro-signup/static/js/2.dc845e97.chunk.js",
+    "static/js/2.dc845e97.chunk.js.map": "/intro-signup/static/js/2.dc845e97.chunk.js.map",
+    "index.html": "/intro-signup/index.html",
+    "precache-manifest.7fb3d6383df0f7ffd994f5f374fb3861.js": "/intro-signup/precache-manifest.7fb3d6383df0f7ffd994f5f374fb3861.js",
+    "service-worker.js": "/intro-signup/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/intro-signup/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.dc845e97.chunk.js.LICENSE.txt": "/intro-signup/static/js/2.dc845e97.chunk.js.LICENSE.txt",
+    "static/media/bg-intro-desktop.png": "/intro-signup/static/media/bg-intro-desktop.eb8c9c16.png",
+    "static/media/bg-intro-mobile.png": "/intro-signup/static/media/bg-intro-mobile.3e78c71a.png",
+    "static/media/icon-error.svg": "/intro-signup/static/media/icon-error.eb2c6ce2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6eb7cd0f.js",
+    "static/js/2.dc845e97.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.596921bb.chunk.js"
+  ]
+}
