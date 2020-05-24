@@ -22,7 +22,7 @@ const StyledField = styled.div`
 
 
 export default function FormField({
-    placeholder,
+    placeholder, name,
     error, errorText,
     onChange, value, type,
 }) {
@@ -33,6 +33,7 @@ export default function FormField({
                 placeholder={placeholder}
                 value={value}
                 onChange={onChange}
+                name={name}
             />
             {error && <ErrorP>{errorText || 'Invalid input'}</ErrorP>}
         </StyledField>

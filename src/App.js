@@ -85,21 +85,25 @@ function App() {
             <FormField
               value={firstName}
               error={clicked && !firstName}
+              name="firstName"
               errorText="First Name cannot be empty"
               placeholder="First Name" onChange={onChange('firstName')} />
             <FormField
               value={lastName}
               error={clicked && !lastName}
+              name="lastName"
               errorText="Last Name cannot be empty"
               placeholder="Last Name" onChange={onChange('lastName')} />
             <FormField
               value={email}
               error={clicked && (!email || !emailIsValid)}
+              name="email"
               errorText={email && !emailIsValid ? 'Looks like this is not an email' : "Email cannot be empty"}
               placeholder="Email Address" onChange={onChange('email')} />
             <FormField
               value={password}
               error={clicked && !password}
+              name="password"
               errorText="Password cannot be empty"
               placeholder="Password" type="password" onChange={onChange('password')} />
             <Button>Claim your free trial</Button>
