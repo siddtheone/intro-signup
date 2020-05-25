@@ -34,6 +34,7 @@ export default function FormField({
                 value={value}
                 onChange={onChange}
                 name={name}
+                aria-label={name}
             />
             {error && <ErrorP>{errorText || 'Invalid input'}</ErrorP>}
         </StyledField>
